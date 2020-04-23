@@ -1,0 +1,19 @@
+{
+  "name": "chatroom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "fuser -k 3000/tcp && nodemon ./src/index.js",
+    "start": "fuser -k 3000/tcp && node ./src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bad-words": "^3.0.3",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.3",
+    "socketio": "^1.0.0"
+  }
+}
